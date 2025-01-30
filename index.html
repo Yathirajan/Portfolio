@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yathirajan A - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: rgb(244, 237, 237);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #f6f4f8;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #007BFF;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .skills-list li {
+            background-color: #007BFF;
+            color: white;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .projects-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            width: 45%;
+            background: #fcf8f8;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #007BFF;
+        }
+
+        .project-title {
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+            background: #007BFF;
+            color: white;
+        }
+
+        .project-description {
+            padding: 10px;
+            color: #555;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: rgb(25, 24, 24);
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yathirajan A</h1>
+    <p>Detail-oriented and results-driven technology enthusiast</p>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a technology enthusiast with a strong foundation in Python programming, data analysis, and web development. I have hands-on experience in developing applications using Django and MySQL, and creating data visualizations using Power BI. I am passionate about contributing to data-driven decision-making in AI, data science, and full-stack development.</p>
+    <p>My goal is to leverage my skills to deliver valuable insights and solutions in data analytics, artificial intelligence, and web development, while continuously growing and adapting to new technologies.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+        <li>Python Programming</li>
+        <li>Data Analysis & Visualization</li>
+        <li>Django Framework</li>
+        <li>MySQL Database Management</li>
+        <li>HTML & CSS</li>
+        <li>Power BI</li>
+        <li>Problem Solving & Algorithms</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project">
+            <a href="sales-report-dashboard.html">
+                <img src="salesdashboard.jpg" alt="Sales Report Dashboard">
+                <div class="project-title">Sales Report Dashboard</div>
+                <div class="project-description">A dynamic dashboard to visualize sales performance and insights.</div>
+            </a>
+        </div>
+
+        <div class="project">
+            <a href="ecommerce-store.html">
+                <img src="ecommerce.jpg" alt="E-commerce Store">
+                <div class="project-title">E-commerce Store</div>
+                <div class="project-description">A scalable and user-friendly online store built with Django.</div>
+            </a>
+        </div>
+
+        <div class="project">
+            <a href="food-delivery-app.html">
+                <img src="C:\yathirajan\resume projects\portfolio\Zomato 1.jpg" alt="Food Delivery App">
+                <div class="project-title">Food Delivery App</div>
+                <div class="project-description">An intuitive platform for online food ordering and delivery.</div>
+            </a>
+        </div>
+
+        <div class="project">
+            <a href="hotel-room-revenue-dashboard.html">
+                <img src="Hotel Revenue1.jpg" alt="Hotel Room Revenue Dashboard">
+                <div class="project-title">Hotel Room Revenue Dashboard</div>
+                <div class="project-description">A dashboard to track hotel room revenue and bookings in real-time.</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:yathirajan30@gmail.com">yathirajan30@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yathi-rajan-a-91752a268/">Yathirajan A</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Yathirajan A. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
